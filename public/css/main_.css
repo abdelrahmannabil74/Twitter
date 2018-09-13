@@ -1,0 +1,210 @@
+/* global */
+
+body {
+    padding: 150px 0 50px;
+}
+
+
+/* tabs */
+
+.tabs {
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.tabs ul {
+    border: 0;
+}
+
+.tabs ul li a,
+.tabs ul li.active a,
+.tabs ul li.active a:hover,
+.tabs ul li.active a:focus {
+    border: 0;
+}
+
+.tabs ul li.active a:hover,
+.tabs ul li.active a:focus {
+    border-bottom: 3px solid #97D4FA;
+}
+
+.tabs ul li a {
+    color: #657786;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.tabs ul li a:hover {
+    background: none;
+    border-bottom: 3px solid #97D4FA;
+}
+
+.tabs ul li.active a {
+    border-bottom: 3px solid #97D4FA;
+}
+
+.tabs ul li a .counter {
+    color: #66757f;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    transition: 0.3s all;
+}
+
+.tabs ul li.active a .counter {
+    color: #97D4FA;
+}
+
+.tabs ul li a:hover .counter {
+    color: #97D4FA;
+}
+
+
+/* profile */
+
+.profile {
+    background: #E6ECF0;
+}
+
+.profile aside {
+    position: relative;
+}
+
+.profile .profile-img {
+    left: 0;
+    position: absolute;
+    top: -50%;
+}
+
+.profile .profile-img img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    border: 5px solid #fff;
+}
+
+.profile .details {
+    padding: 50px 0;
+}
+
+.profile .details h1 {
+    color: #14171A;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-right: 2px;
+    word-wrap: break-word;
+    margin-bottom: 0;
+}
+
+.profile .details .username:hover {
+    text-decoration: underline;
+}
+
+.profile .details span {
+    color: #657786;
+    font-size: 14px;
+}
+
+.profile .details .bio {
+    color: #14171a;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    word-wrap: break-word;
+}
+
+.profile .details .location {
+    display: block;
+}
+
+.profile .details .additional-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.profile .details .additional-details i {
+    margin-right: 10px;
+}
+
+.profile .details .additional-details i.fa-2x {
+    font-size: 1.5em;
+}
+
+.profile .tab-content .media {
+    padding: 15px;
+    background: #fff;
+    border-bottom: 1px solid #e6ecf0;
+    border-top: 1px solid #e6ecf0;
+    margin: 0;
+}
+
+.profile .tab-content .media:first-child {
+    padding: 15px;
+    background: #fff;
+    border-bottom: 1px solid #e6ecf0;
+    border-top: 1px solid #e6ecf0;
+    margin-top: 10px;
+}
+
+.profile .tab-content .media .media-left img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.profile .tab-content .media .media-body a:hover {
+    text-decoration: none;
+}
+
+.profile .tab-content .media .media-body h4 {
+    word-break: break-all;
+    color: #14171a;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile .tab-content .media .media-body h4 span {
+    font-size: 14px;
+    color: #657786;
+    font-weight: 200;
+}
+
+.profile .tab-content .media .media-body p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.profile .tab-content .media .media-body .like-btn {
+    color: #abb1b5;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.profile .tab-content .media .media-body .like-btn:hover {
+    color: #E0245E;
+}
+
+.profile .tab-content .media .media-body .like-btn span {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.profile .tab-content .media .media-body .liked {
+    color: #E0245E;
+}
